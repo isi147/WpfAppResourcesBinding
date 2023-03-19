@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8" xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="grid">
+
+        <!--<StackPanel Width="300">
+            <Button Background="{StaticResource btnColor2}" FontSize="{StaticResource btnSize1}">Save</Button>
+            <Button Background="{DynamicResource btnColor1}" FontSize="{StaticResource btnSize1}">Edit</Button>
+            <Button Background="{DynamicResource btnColor2}" FontSize="{StaticResource btnSize1}">Help</Button>
+            <Button FontSize="40" Click="Button_Click">Change Color</Button>
+        </StackPanel>-->
+
+        <StackPanel>
+            <TextBlock FontSize="36" Text="{Binding SomeText}"></TextBlock>
+            <TextBlock FontSize="36" Text="{Binding SomeText}"></TextBlock>
+            <Button FontSize="36" Click="Button_Click">Click</Button>
+        </StackPanel>
+
+
+
+
+    </Grid>
+</Window>
